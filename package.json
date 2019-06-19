@@ -1,0 +1,26 @@
+{
+  "name": "lambda-serveless-thumbnail",
+  "version": "1.0.0",
+  "description": "Develop and Deploy AWS Lambda Functions with Serverless, Learn Lambda Real World Integrations with Amazon Web Services",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "serverless": "^1.45.1"
+  },
+  "scripts": {
+    "sls": "sls config credentials --provider aws --key XXXX --secret YYYY  --profile serverless-admin",
+    "sls-create": "sls create --template aws-nodejs --path hello-world-nodejs",
+    "sls-deploy": "sls deploy -v",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccsCarolSerrao/lambda-serveless-thumbnail.git"
+  },
+  "author": "Carolina Serrão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccsCarolSerrao/lambda-serveless-thumbnail/issues"
+  },
+  "homepage": "https://github.com/ccsCarolSerrao/lambda-serveless-thumbnail#readme"
+}
