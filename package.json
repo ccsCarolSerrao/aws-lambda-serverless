@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Develop and Deploy AWS Lambda Functions with Serverless, Learn Lambda Real World Integrations with Amazon Web Services",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "aws-sdk": "^2.478.0"
+  },
   "devDependencies": {
     "serverless": "^1.45.1"
   },
