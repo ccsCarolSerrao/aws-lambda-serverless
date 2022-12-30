@@ -7,7 +7,7 @@
     "aws-sdk": "^2.478.0"
   },
   "devDependencies": {
-    "serverless": "^1.45.1"
+    "serverless": "^1.83.3"
   },
   "scripts": {
     "sls": "sls config credentials --provider aws --key XXXX --secret YYYY  --profile serverless-admin",
